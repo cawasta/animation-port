@@ -1,0 +1,22 @@
+{
+  "name": "animation-port",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cawasta/animation-port.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cawasta/animation-port/issues"
+  },
+  "homepage": "https://github.com/cawasta/animation-port#readme",
+  "dependencies": {
+    "sass": "^1.20.1"
+  }
+}
