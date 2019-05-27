@@ -1,0 +1,19 @@
+footer {
+  background-color: $red-light;
+  height: 25em;
+  position: relative;
+
+  h2 {
+    font-family: "Sansita", sans-serif;
+    color: $red-dark;
+    font-size: 15rem;
+    right: 6%;
+    bottom: 0;
+    position: absolute;
+
+    span {
+      font-family: "Reenie Beanie", cursive;
+      color: $red-dark;
+    }
+  }
+}

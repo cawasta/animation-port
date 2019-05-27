@@ -1,0 +1,56 @@
+#about {
+  height: 200vh;
+  display: flex;
+
+  .about-title {
+    background-color: $grey-dark;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 !important;
+    font-size: 2.3rem;
+  }
+
+  .about-pages {
+    width: 50%;
+
+    div {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      padding: 3.5em 1.5em;
+      font-size: 2rem;
+    }
+
+    p {
+      line-height: 1.8rem;
+      color: #d5c7b8;
+      font-size: 1.2rem;
+      font-family: "Nanum Gothic", sans-serif;
+    }
+
+    .about-page-1 {
+      background-color: $green-dark;
+    }
+
+    .about-page-2 {
+      background-color: $green-light;
+    }
+  }
+
+  .about-appear-one_off,
+  .about-appear-two_off {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.5s all ease-in-out;
+  }
+
+  .about-appear_on {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

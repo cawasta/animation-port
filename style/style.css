@@ -1,3 +1,126 @@
+header {
+  background-color: #4d4c56;
+  height: 100vh;
+}
+header .polygon {
+  float: right;
+  shape-outside: polygon(-251.75% 0.75%, 100% 1%, 98.25% 238.25%, 54.5% 237.5%, -251.25% 36.5%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 90% 100%, 0% 10%);
+  height: 100%;
+  width: 100%;
+  background-color: #ff6f77;
+}
+header .intro-box {
+  position: absolute;
+  display: flex;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 6rem;
+}
+header .intro-box .intro-box-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+header .intro-box .intro-box-content img {
+  width: 20%;
+  border-radius: 50%;
+  position: absolute;
+  top: 33%;
+  left: 23%;
+}
+header .intro-box .intro-box-content h2:nth-child(1) {
+  color: #ff6f77;
+  position: absolute;
+  font-family: "Nanum Gothic", sans-serif;
+  top: 54%;
+  left: 37%;
+  z-index: 1;
+}
+header .intro-box .intro-box-content h2:nth-child(2) {
+  color: #4d4c56;
+  position: absolute;
+  font-family: "Nanum Gothic", sans-serif;
+  top: 32%;
+  left: 52%;
+}
 
+#about {
+  height: 200vh;
+  display: flex;
+}
+#about .about-title {
+  background-color: #4b4b4c;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 !important;
+  font-size: 2.3rem;
+}
+#about .about-pages {
+  width: 50%;
+}
+#about .about-pages div {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3.5em 1.5em;
+  font-size: 2rem;
+}
+#about .about-pages p {
+  line-height: 1.8rem;
+  color: #d5c7b8;
+  font-size: 1.2rem;
+  font-family: "Nanum Gothic", sans-serif;
+}
+#about .about-pages .about-page-1 {
+  background-color: #157a6e;
+}
+#about .about-pages .about-page-2 {
+  background-color: #549e95;
+}
+#about .about-appear-one_off,
+#about .about-appear-two_off {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 0.5s all ease-in-out;
+}
+#about .about-appear_on {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+footer {
+  background-color: #ff6f77;
+  height: 25em;
+  position: relative;
+}
+footer h2 {
+  font-family: "Sansita", sans-serif;
+  color: #ff3a44;
+  font-size: 15rem;
+  right: 6%;
+  bottom: 0;
+  position: absolute;
+}
+footer h2 span {
+  font-family: "Reenie Beanie", cursive;
+  color: #ff3a44;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: #dfbe99;
+}
 
 /*# sourceMappingURL=style.css.map */
