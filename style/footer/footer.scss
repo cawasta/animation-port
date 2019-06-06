@@ -6,7 +6,7 @@ footer {
   h2 {
     font-family: "Sansita", sans-serif;
     color: $red-dark;
-    font-size: 15rem;
+    font-size: 13rem;
     right: 6%;
     bottom: 0;
     position: absolute;
@@ -14,6 +14,25 @@ footer {
     span {
       font-family: "Reenie Beanie", cursive;
       color: $red-dark;
+    }
+  }
+}
+
+@media (max-width: 890px) {
+  footer {
+    height: 20em;
+    h2 {
+      font-size: 8rem;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  footer {
+    height: 8em;
+
+    h2 {
+      font-size: 4rem;
     }
   }
 }

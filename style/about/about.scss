@@ -54,3 +54,42 @@
     transform: translateY(0px);
   }
 }
+
+// Medium devices
+@media (max-width: 890px) {
+  #about {
+    .about-title {
+      font-size: 1.6rem;
+    }
+
+    .about-pages {
+      div {
+        padding: 2.5em 1.5em;
+        font-size: 1.3rem;
+      }
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+// Small devices
+@media (max-width: 576px) {
+  #about {
+    .about-title {
+      font-size: 0.9rem !important;
+    }
+
+    .about-pages {
+      div {
+        padding: 0.5em 1em;
+        font-size: 0.8rem;
+      }
+
+      p {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

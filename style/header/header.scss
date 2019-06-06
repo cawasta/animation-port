@@ -33,7 +33,7 @@ header {
       height: 100%;
 
       img {
-        width: 20%;
+        width: 360px;
         border-radius: 50%;
         position: absolute;
         top: 33%;
@@ -53,6 +53,54 @@ header {
         font-family: "Nanum Gothic", sans-serif;
         top: 32%;
         left: 52%;
+        z-index: 1;
+      }
+    }
+  }
+}
+
+// Medium devices
+@media (max-width: 890px) {
+  header {
+    .intro-box-content {
+      font-size: 5rem;
+
+      img {
+        top: 16% !important;
+      }
+      h2:nth-child(1) {
+        top: 58% !important;
+        left: 32% !important;
+      }
+      h2:nth-child(2) {
+        top: 40% !important;
+        left: 45% !important;
+      }
+    }
+  }
+}
+
+// Small devices
+@media (max-width: 576px) {
+  header {
+    .intro-box {
+      .intro-box-content {
+        top: 0.7em;
+        font-size: 3rem !important;
+
+        img {
+          width: 200px;
+          top: 10% !important;
+          left: 12% !important;
+        }
+        h2:nth-child(1) {
+          top: 54%;
+          left: 37%;
+        }
+        h2:nth-child(2) {
+          top: 32%;
+          left: 52%;
+        }
       }
     }
   }
